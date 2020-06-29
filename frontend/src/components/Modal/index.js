@@ -9,8 +9,8 @@ function Modal({ visibleModal, setVisibleModal, type, data }) {
 
   if (type === 'order' && data) {
     const datesFormated = {
-      start: format(parseISO(data.start_date), 'dd/MM/yyyy'),
-      end: format(parseISO(data.end_date), 'dd/MM/yyyy'),
+      start: data.start_date ? format(parseISO(data.start_date), 'dd/MM/yyyy') : '- - / - - / - - ',
+      end: data.end_date ? format(parseISO(data.end_date), 'dd/MM/yyyy') : '- - / - - / - - ',
     };
     return (
       <Container
