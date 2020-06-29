@@ -1,0 +1,92 @@
+/backend/node_modules
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/tmp/signatures_top
+/backend/tmp/uploads_top
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/fontend/node_modules
+/fontend/.pnp
+/fontend/.pnp.js
+
+# testing
+/fontend/coverage
+
+# production
+/fontend/build
+
+# misc
+/fontend/.DS_Store
+/fontend/.env.local
+/fontend/.env.development.local
+/fontend/.env.test.local
+/fontend/.env.production.local
+
+/fontend/npm-debug.log*
+/fontend/yarn-debug.log*
+/fontend/yarn-error.log*
+
+# OSX
+#
+/mobile/.DS_Store
+
+# Xcode
+#
+/mobile/__tests__
+/mobile/build/
+/mobile/*.pbxuser
+/mobile/!default.pbxuser
+/mobile/*.mode1v3
+/mobile/!default.mode1v3
+/mobile/*.mode2v3
+/mobile/!default.mode2v3
+/mobile/*.perspectivev3
+/mobile/!default.perspectivev3
+/mobile/xcuserdata
+/mobile/*.xccheckout
+/mobile/*.moved-aside
+/mobile/DerivedData
+/mobile/*.hmap
+/mobile/*.ipa
+/mobile/*.xcuserstate
+
+# Android/IntelliJ
+#
+/mobile/build/
+/mobile/.idea
+/mobile/.gradle
+/mobile/local.properties
+/mobile/*.iml
+
+# node.js
+#
+/mobile/node_modules/
+/mobile/npm-debug.log
+/mobile/yarn-error.log
+
+# BUCK
+/mobile/buck-out/
+/mobile/\.buckd/
+/mobile/*.keystore
+/mobile/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+/mobile/*/fastlane/report.xml
+/mobile/*/fastlane/Preview.html
+/mobile/*/fastlane/screenshots
+
+# Bundle artifact
+/mobile/*.jsbundle
+
+# CocoaPods
+/mobile/ios/Pods/
+
